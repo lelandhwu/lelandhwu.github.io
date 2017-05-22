@@ -29,7 +29,7 @@ if(!localStorage.getItem('name')) {
 } 
 else {
   var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Hi,' + storedName + '!';
+  myHeading.textContent = 'Hi, ' + storedName + '!';
 }
 
 myButton.onclick = function() {
