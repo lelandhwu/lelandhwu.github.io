@@ -4,11 +4,11 @@ myImage.onclick = function() {
 
         var mySrc = myImage.getAttribute('src');
 
-        if(mySrc === 'images/portal-boy.png') {
-                myImage.setAttribute ('src','images/2B.png');
+        if(mySrc === 'images/portal-boy') {
+                myImage.setAttribute ('src','images/propic.jpg');
         } 
         else {
-                myImage.setAttribute ('src','images/portal-boy.png');
+                myImage.setAttribute ('src','images/portal-boy');
         }
 
 }
