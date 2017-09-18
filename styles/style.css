@@ -1,36 +1,21 @@
-h1 {
-    font-size: 60px;
-    /*text-align: center;*/
-    margin: 0;
-    color: #8DC1F6;
-    padding: 20px 0; 
-    text-shadow: 3px 3px 1px black;
-}
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-p, li {
-
-    width: 500px; 
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-}
 
 html {
     /* px means 'pixels': the base font size is now 10 pixels high */
-    font-size: 10px;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #8DC1F6;
+    font-size: 18px;
+    font-family: serif;
 }
 
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #A254E2;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+    text-align: center;
 }
+
+img {
+    max-width:20%;
+    max-height:20%;
+}
+
+.bio {
+    padding-left: .5em
+}
+
