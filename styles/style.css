@@ -12,17 +12,17 @@ html {
 body {
     margin: 1px;
     text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
-
 nav {
     display:flex;
-    justify-content: center; 
-    padding-top: 5px;
-}
-
-nav .elements {
-    
-
+    align-items: center;
+    justify-content: center;
+    margin: -17px; 
 }
 
 #resume {
@@ -32,7 +32,8 @@ nav .elements {
     font-size: 13px;
     letter-spacing: 2px;
     background-color: #4BD9A9;
-    margin-right: 50px
+    margin-right: 50px;
+    border-radius: 4px;
 }
 
 #bio {
@@ -42,6 +43,7 @@ nav .elements {
     font-size: 13px;
     letter-spacing: 2px;
     background-color: #4BD9A9;
+    border-radius: 4px;
 }
 
 #resume:visited {
