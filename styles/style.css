@@ -3,9 +3,35 @@
 html {
     /* px means 'pixels': the base font size is now 10 pixels high */
     font-size: 18px;
-    font-family: serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-color: #00008B;
 }
 
+body {
+    text-align: center;
+}
+
+nav {
+    display:flex;
+    justify-content: center; 
+}
+
+nav .elements {
+    padding-right: 30px
+}
+
+h1 {
+    font-size: 60px;
+    color: #00008B;
+}
+
+.period {
+    color: #5F9EA0;
+    padding-left: 0px;
+}
 body {
     text-align: center;
 }
@@ -13,13 +39,7 @@ body {
 img {
     max-width:20%;
     max-height:20%;
+    float:left ;
 }
 
-.bio {
-    padding-left: .5em
-}
-
-.resume {
-    padding-right: .5em
-}
 
