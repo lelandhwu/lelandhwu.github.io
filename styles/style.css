@@ -1,5 +1,4 @@
 
-
 html {
     /* px means 'pixels': the base font size is now 10 pixels high */
     font-size: 18px;
@@ -11,25 +10,69 @@ html {
 }
 
 body {
+    margin: 0px;
     text-align: center;
 }
 
 nav {
     display:flex;
     justify-content: center; 
+    padding-top: 5px;
 }
 
 nav .elements {
-    padding-right: 30px
+    
+
+}
+
+#resume {
+    text-decoration: none;
+    width: 100px;
+    padding: 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: #4BD9A9;
+    margin-right: 50px
+}
+
+#bio {
+    width: 100px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: #4BD9A9;
+}
+
+#resume:visited {
+    color: white;
+}
+
+#bio:visited {
+    color: white;
+}
+
+#resume:hover{
+    color: #808080;
+}
+
+#bio:hover {
+    color: #808080;
 }
 
 h1 {
     font-size: 60px;
     color: #00008B;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-top-color: white; 
+    border-left-color: white;
+    border-right-color: white ;
+    border-bottom-color: black;
 }
 
 .period {
-    color: #5F9EA0;
+    color: #4BD9A9;
     padding-left: 0px;
 }
 body {
