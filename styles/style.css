@@ -23,7 +23,7 @@ h1 {
     border-left-color: white;
     border-right-color: white ;
     border-bottom-color: black;
-    animation: fadeInDown 1s;
+    animation: fadeInDown 2s;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
     align-items: center;
     justify-content: center;
     margin: -17px; 
-    animation: fadein 2s; 
+    animation: fadein 3s; 
 
 }
 @keyframes fadein {
@@ -92,8 +92,8 @@ nav {
 
 @keyframes bounce { 
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-    40% {transform: translateY(-10px);} 
-    60% {transform: translateY(-10px);} 
+    40% {transform: translateY(-3px);} 
+    60% {transform: translateY(-3px);} 
 }
 
 .period {
