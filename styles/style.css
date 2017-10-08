@@ -9,16 +9,20 @@ html {
 body {
     text-align: center;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 48.5%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+    outline: none;
+ 
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     color: #00008B;
     padding-bottom: 10px;
     border-style: solid;
+    width: 800px;
     border-top-color: white; 
     border-left-color: white;
     border-right-color: white ;
@@ -32,7 +36,6 @@ nav {
     justify-content: center;
     margin: -17px; 
     animation: fadein 3s; 
-
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -48,15 +51,50 @@ nav {
         transform: translateY(0);
     }
 }
+
+#linkedin {
+    color: #4BD9A9;
+    text-decoration: none;
+    width: 15px;
+    font-size: 45px;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+#github {
+    color: #4BD9A9;
+    text-decoration: none;
+    width: 15px;
+    font-size: 47px;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+#mailto {
+
+    color: #4BD9A9;
+    text-decoration: none;
+    width: 15px;
+    font-size: 43px;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+    border-radius: 4px;
+    margin-bottom:4px;
+}
+
 #resume {
     color: #FFFFFF;
     text-decoration: none;
     width: 100px;
-    padding: 15px;
+    padding: 13px;
     font-size: 13px;
     letter-spacing: 2px;
     background-color: #4BD9A9;
-    margin-right: 50px;
+    margin-right: 32px;
     border-radius: 4px;
 }
 
@@ -64,11 +102,23 @@ nav {
     color: #FFFFFF;
     width: 100px;
     text-decoration: none;
-    padding: 15px;
+    padding: 13px;
     font-size: 13px;
     letter-spacing: 2px;
+    margin-right: 52px;
     background-color: #4BD9A9;
     border-radius: 4px;
+}
+
+.icons:visited {
+     color: #FFFFFF;
+}
+
+.icons:hover {
+    background-color: #4BD9A9;
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+
 }
 
 #resume:visited {
@@ -81,30 +131,33 @@ nav {
 
 #resume:hover{
     background-color: #4BD9A9;
+    -webkit-animation: bounce 1s;
     animation: bounce 1s;
-}
 
-#bio:hover {
+}
+#bio:hover { 
     background-color: #4BD9A9;
+    -webkit-animation: bounce 1s;
     animation: bounce 1s;
+
 }         
 
-
+@-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-2px);} 
+    60% {transform: translateY(-2px);} 
+}
 @keyframes bounce { 
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-    40% {transform: translateY(-3px);} 
-    60% {transform: translateY(-3px);} 
+    40% {transform: translateY(-2px);} 
+    60% {transform: translateY(-2px);} 
 }
+
 
 .period {
     color: #4BD9A9;
     text-decoration: none;
-    padding-left: 0px;
-    
-}
-
-body {
-    text-align: center;
+    padding-left: 0px; 
 }
 
 img {
