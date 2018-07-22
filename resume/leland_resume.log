@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  22 JUL 2018 13:01
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  22 JUL 2018 13:03
  restricted system commands enabled.
 **leland_resume.tex
 (./leland_resume.tex
@@ -376,8 +376,8 @@ Here is how much of LuaTeX's memory you used:
  393 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 53 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 1:1,2:1004,3:210,4:92,5:242,6:2911,7:1168,8:57,9:243,10:24,11:27
-8
+   avail lists: 1:1,2:1004,3:210,4:92,5:242,6:2915,7:1169,8:57,9:243,10:24,11:27
+9
  10345 multiletter control sequences out of 65536+600000
  50 fonts using 3489935 bytes
  28i,11n,43p,265b,339s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -388,7 +388,7 @@ ular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-
 regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman
 12-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on leland_resume.pdf (1 page, 39540 bytes).
+Output written on leland_resume.pdf (1 page, 39550 bytes).
 
 PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
